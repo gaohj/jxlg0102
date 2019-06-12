@@ -22,51 +22,64 @@
 {#    <p>我们还可以做朋友</p>#}
 {#{% endif %}#}
 
-{% for person in persons reversed %}
-    <p>{{ person}}</p>
-{% endfor %}
+{#{% for person in persons reversed %}#}
+{#    <p>{{ person}}</p>#}
+{#{% endfor %}#}
 
 {#{% for key,value in persons.items %}#}
 {#    <p>{{ key }}</p>#}
 {#    <p>{{ value }}</p>#}
 {#{% endfor %}#}
-<table>
-    <thead>
-        <tr>
-            <th>序号</th>
-            <th>书名</th>
-            <th>作者</th>
-            <th>价格</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for book in books %}
-            {% if forloop.first %}
-            <tr style="background: pink">
-            {% elif forloop.last %}
-            <tr style="background: green">
-             {% else %}
-                 <tr>
-            {% endif %}
+{#<table>#}
+{#    <thead>#}
+{#        <tr>#}
+{#            <th>序号</th>#}
+{#            <th>书名</th>#}
+{#            <th>作者</th>#}
+{#            <th>价格</th>#}
+{#        </tr>#}
+{#    </thead>#}
+{#    <tbody>#}
+{#        {% for book in books %}#}
+{#            {% if forloop.first %}#}
+{#            <tr style="background: pink">#}
+{#            {% elif forloop.last %}#}
+{#            <tr style="background: green">#}
+{#             {% else %}#}
+{#                 <tr>#}
+{#            {% endif %}#}
+{##}
+{#                <td>{{ forloop.counter }}</td>#}
+{#                <td>{{ book.name }}</td>#}
+{#                <td>{{ book.author }}</td>#}
+{#                <td>{{ book.price }}</td>#}
+{#            </tr>#}
+{#        {% endfor %}#}
+{##}
+{#    </tbody>#}
+{#</table>#}
+{#<ul>#}
+{#    {% for comment in  comments %}#}
+{#        <li>#}
+{#            {{ comment }}#}
+{#        </li>#}
+{#        {% empty %}#}
+{#        <li>没有任何评论</li>#}
+{#    {% endfor %}#}
+{#</ul>#}
+{#{% with zs=persons.0  %}#}
+{#    <p>{{ zs }}</p>#}
+{#    <p>{{ zs }}</p>#}
+{#{% endwith %}#}
+{##}
+{#{% with persons.1 as li %}#}
+{#    <p>{{ li }}</p>#}
+{#    <p>{{ li }}</p>#}
+{#{% endwith %}#}
+{##}
+{#<p>{{ zs }}</p>#}
+{#<p>{{ li }}</p>#}
 
-                <td>{{ forloop.counter }}</td>
-                <td>{{ book.name }}</td>
-                <td>{{ book.author }}</td>
-                <td>{{ book.price }}</td>
-            </tr>
-        {% endfor %}
-
-    </tbody>
-</table>
-<ul>
-    {% for comment in  comments %}
-        <li>
-            {{ comment }}
-        </li>
-        {% empty %}
-        <li>没有任何评论</li>
-    {% endfor %}
-</ul>
-
+<a href="">百度</a>
 </body>
 </html>

@@ -49,36 +49,44 @@ def index(request):
     #     ]
     # }
 
+    # context = {
+    #     'comments':[
+    #         '你打球像cxk'
+    #     ],
+    #     'books':[
+    #         {
+    #             'name':'python深入浅出',
+    #             'author':'扛把子',
+    #             'price':200
+    #         },
+    #         {
+    #             'name': 'mysql从入门到放弃',
+    #             'author': '扛把子1',
+    #             'price': 100
+    #         },
+    #         {
+    #             'name': 'Linux从希望到绝望',
+    #             'author': '扛把子2',
+    #             'price': 150
+    #         },
+    #         {
+    #             'name': '离散数学从懵逼到彻底懵逼',
+    #             'author': '扛把子3',
+    #             'price': 100
+    #         },
+    #         {
+    #             'name': 'JavaScript10年刚刚入门',
+    #             'author': '扛把子4',
+    #             'price': 130
+    #         },
+    #     ]
+    # }
+
     context = {
-        'comments':[
-            '你打球像cxk'
-        ],
-        'books':[
-            {
-                'name':'python深入浅出',
-                'author':'扛把子',
-                'price':200
-            },
-            {
-                'name': 'mysql从入门到放弃',
-                'author': '扛把子1',
-                'price': 100
-            },
-            {
-                'name': 'Linux从希望到绝望',
-                'author': '扛把子2',
-                'price': 150
-            },
-            {
-                'name': '离散数学从懵逼到彻底懵逼',
-                'author': '扛把子3',
-                'price': 100
-            },
-            {
-                'name': 'JavaScript10年刚刚入门',
-                'author': '扛把子4',
-                'price': 130
-            },
+        'persons':[
+            '张三',
+            '里斯',
+            '王五'
         ]
     }
     return render(request,'index.html',context=context)
