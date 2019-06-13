@@ -79,7 +79,8 @@
 {##}
 {#<p>{{ zs }}</p>#}
 {#<p>{{ li }}</p>#}
-
-<a href="">百度</a>
+{% autoescape on %}
+    {{ info }}
+{% endautoescape %}
 </body>
 </html>

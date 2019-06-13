@@ -82,11 +82,14 @@ def index(request):
     #     ]
     # }
 
+    # context = {
+    #     'persons':[
+    #         '张三',
+    #         '里斯',
+    #         '王五'
+    #     ]
+    # }
     context = {
-        'persons':[
-            '张三',
-            '里斯',
-            '王五'
-        ]
+        "info":"<script>alert('test')</script>"
     }
     return render(request,'index.html',context=context)
