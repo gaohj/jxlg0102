@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69286316-f9dd-4579-8087-c2ebd3ecb2a2" name="Default Changelist" comment="" />
+    <list default="true" id="663dac83-5810-481e-86f1-3c2f935b2dce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/0002_article_author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontuser/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontuser/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relationship_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../relationship_demo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,72 +20,83 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1295513563">
+    <session id="1843477407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1104" />
-          <entry key="py@relationship_demo" value="45" />
+          <entry key="py" value="1983" />
+          <entry key="py@orm_relationship" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="45" />
-          <entry key="Python" value="1104" />
+          <entry key="CommandLine" value="42" />
+          <entry key="Python" value="1983" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/article/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1560502400220" expanded="true" signature="195:200" ph="..." />
+                <marker date="1560502400220" expanded="true" signature="529:534" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orm_relationship/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/article/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="13" column="103" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="103" />
+            <state relative-caret-position="137">
+              <caret line="9" column="101" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="101" />
               <folding>
-                <marker date="1560483285158" expanded="true" signature="155:268" ph="..." />
+                <marker date="1560501953453" expanded="true" signature="60:105" ph="..." />
+                <marker date="1560501953453" expanded="true" signature="160:165" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/relationship_demo/settings.py">
+        <entry file="file://$PROJECT_DIR$/orm_relationship/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1560484280611" expanded="true" signature="198:203" ph="..." />
-                <marker date="1560484280611" expanded="true" signature="567:568" ph="..." />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,19 +104,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontuser/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/relationship_demo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="336">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#641#673#0" expanded="true" />
+                <marker date="1560501271091" expanded="true" signature="88:236" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,11 +121,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/book/models.py" />
+        <option value="$PROJECT_DIR$/book/views.py" />
+        <option value="$PROJECT_DIR$/orm_relationship/settings.py" />
         <option value="$PROJECT_DIR$/frontuser/models.py" />
+        <option value="$PROJECT_DIR$/orm_relationship/urls.py" />
         <option value="$PROJECT_DIR$/article/models.py" />
-        <option value="$PROJECT_DIR$/relationship_demo/settings.py" />
         <option value="$PROJECT_DIR$/article/views.py" />
-        <option value="$PROJECT_DIR$/relationship_demo/urls.py" />
       </list>
     </option>
   </component>
@@ -126,8 +138,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="112" />
+    <option name="x" value="683" />
+    <option name="y" value="173" />
     <option name="width" value="1024" />
     <option name="height" value="791" />
   </component>
@@ -142,23 +154,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="relationship_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relationship_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="orm_relationship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orm_relationship" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="relationship_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relationship_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="orm_relationship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orm_relationship" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="relationship_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relationship_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="frontuser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="relationship_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relationship_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="relationship_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="orm_relationship" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orm_relationship" type="462c0819:PsiDirectoryNode" />
+              <item name="orm_relationship" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,10 +175,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jxlg_0304/day03/orm_demo1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,13 +191,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="relationship_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
-      <module name="relationship_demo" />
+    <configuration name="orm_relationship" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+      <module name="orm_relationship" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="relationship_demo.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="orm_relationship.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\jiangxiligong\jxlg_0102\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -216,39 +221,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69286316-f9dd-4579-8087-c2ebd3ecb2a2" name="Default Changelist" comment="" />
-      <created>1560482093162</created>
+      <changelist id="663dac83-5810-481e-86f1-3c2f935b2dce" name="Default Changelist" comment="" />
+      <created>1560498348762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560482093162</updated>
+      <updated>1560498348762</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="manage.py@orm_relationship" weight="0.41913748" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5229111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@relationship_demo" order="10" weight="0.5525606" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32884097" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32884097" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,48 +264,73 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/article/models.py">
+    <entry file="file://$PROJECT_DIR$/book/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="13" column="103" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="103" />
+        <state relative-caret-position="347">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <marker date="1560483285158" expanded="true" signature="155:268" ph="..." />
+            <marker date="1560500978875" expanded="true" signature="82:410" ph="..." />
+            <marker date="1560500978875" expanded="true" signature="257:370" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/relationship_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="25">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/views.py">
+    <entry file="file://$PROJECT_DIR$/orm_relationship/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm_relationship/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1560484280611" expanded="true" signature="198:203" ph="..." />
-            <marker date="1560484280611" expanded="true" signature="567:568" ph="..." />
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontuser/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="336">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1560501271091" expanded="true" signature="88:236" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/relationship_demo/urls.py">
+    <entry file="file://$PROJECT_DIR$/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="137">
+          <caret line="9" column="101" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="101" />
           <folding>
-            <element signature="e#641#673#0" expanded="true" />
+            <marker date="1560501953453" expanded="true" signature="60:105" ph="..." />
+            <marker date="1560501953453" expanded="true" signature="160:165" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1560502400220" expanded="true" signature="195:200" ph="..." />
+            <marker date="1560502400220" expanded="true" signature="529:534" ph="..." />
           </folding>
         </state>
       </provider>
