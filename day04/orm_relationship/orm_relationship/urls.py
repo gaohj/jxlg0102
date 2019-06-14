@@ -22,4 +22,6 @@ urlpatterns = [
     path('',book_view.index,name='index'),
     path('article/',article_view.index,name='article'),
     path('one_many/',article_view.one_to_many_view,name='one_many'),
+    path('one_one/',article_view.one_to_one_view,name='one_one'),
+    path('many_many/',article_view.many_to_many_view,name='many_many'),
 ]
