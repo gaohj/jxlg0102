@@ -4,7 +4,11 @@ from frontuser.models import FrontUser
 class Category(models.Model):
     name = models.CharField(max_length=50)
 
-
+class Tag(models.Model):
+    name = models.CharField(max_length=50)
+    articles = models.ManyToManyField("Article",related_name='tags')
+    def __str__(self):
+        return "<Article:(name:%s)>" % self.name
 class Article(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()

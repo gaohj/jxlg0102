@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from .models import Article,Category
-from frontuser.models import FrontUser
+from .models import Article,Category,Tag
+from frontuser.models import FrontUser,UserExtension
 from django.http import HttpResponse
 # Create your views here.
 
@@ -40,6 +40,42 @@ def one_to_many_view(request):
     #bulk=False 作用是 不需要额外的保存我们article 直接添加就可以
     category.articles.add(article,bulk=False)
     return HttpResponse("一对多SUCCESS")
+def one_to_one_view(request):
+    # user = FrontUser.objects.first()
+    # extension = UserExtension(school="五道口职业学院")
+    #
+    # extension.user = user
+    # extension.save()
+    extension = UserExtension.objects.first()
+    print(extension.user)
 
+    user = FrontUser.objects.first()
+    extensions = user.extension
+    print(extensions)
+    return HttpResponse("一对一成功")
+
+def many_to_many_view(request):
+    # article = Article.objects.first()
+    # tag = Tag(name="人生苦短，我用Python")
+    # tag.save()
+    # article.tag_set.add(tag)
+
+    # article = Article.objects.first()
+    # tag = Tag(name="Python搜索指数绝对的第一")
+    # tag.save()
+    # article.tags.add(tag)
+
+
+    # tag = Tag.objects.get(pk=2)
+    # article = Article.objects.get(pk=3)
+    # tag.articles.add(article)
+
+    # 标签下面的文章
+    article = Article.objects.get(pk=1)
+    tags = article.tags.all()
+    for tag in  tags:
+        print(tag)
+
+    return HttpResponse("多对多成功")
 
 
