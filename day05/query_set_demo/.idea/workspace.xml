@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01b7a232-407a-4f3d-8e86-732e635ea9f8" name="Default Changelist" comment="" />
+    <list default="true" id="887fcd76-e0a4-4b1a-9402-047d2f60eccb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0002_auto_20190617_1116.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0003_auto_20190617_1131.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relation_ship/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../relation_ship/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,75 +50,79 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1842101080">
+    <session id="1702641478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="article_article" value="6" />
-          <entry key="article_category" value="2" />
-          <entry key="article_tag" value="1" />
-          <entry key="article_tag_articles" value="3" />
-          <entry key="auth_user_user_permissions" value="1" />
-          <entry key="frontuser_frontuser" value="3" />
-          <entry key="frontuser_userextension" value="2" />
-          <entry key="py" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Database Element" value="18" />
-          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="1" />
-          <entry key="py" value="2097" />
-          <entry key="py@relation_ship" value="9" />
+          <entry key="cell" value="261" />
+          <entry key="py" value="898" />
+          <entry key="py@query_set_demo" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="9" />
-          <entry key="Python" value="2097" />
-          <entry key="Scratch" value="1" />
+          <entry key="CommandLine" value="17" />
+          <entry key="Python" value="898" />
+          <entry key="Scratch" value="261" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="article" value="1" />
+          <entry key="book" value="1" />
+          <entry key="category" value="1" />
+          <entry key="py" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="3" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="381">
+              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1560738863941" expanded="true" signature="213:218" ph="..." />
-                <marker date="1560738863941" expanded="true" signature="1444:2345" ph="..." />
-                <marker date="1560738863941" expanded="true" signature="1820:2345" ph="..." />
+                <marker date="1560743317057" expanded="true" signature="236:241" ph="..." />
+                <marker date="1560743317057" expanded="true" signature="467:472" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/article/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="573">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1560738946158" expanded="true" signature="124:129" ph="..." />
-                <marker date="1560738946158" expanded="true" signature="193:378" ph="..." />
-                <marker date="1560738946158" expanded="true" signature="406:411" ph="..." />
+                <marker date="1560742264499" expanded="true" signature="82:722" ph="..." />
+                <marker date="1560742264499" expanded="true" signature="298:390" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_set_demo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#638#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,25 +130,16 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/relation_ship/settings.py" />
-        <option value="$PROJECT_DIR$/relation_ship/urls.py" />
-        <option value="$PROJECT_DIR$/frontuser/models.py" />
-        <option value="$PROJECT_DIR$/article/urls.py" />
-        <option value="$PROJECT_DIR$/article/views.py" />
-        <option value="$PROJECT_DIR$/article/models.py" />
+        <option value="$PROJECT_DIR$/front/models.py" />
+        <option value="$PROJECT_DIR$/query_set_demo/settings.py" />
+        <option value="$PROJECT_DIR$/query_set_demo/urls.py" />
+        <option value="$PROJECT_DIR$/front/views.py" />
       </list>
     </option>
   </component>
@@ -163,24 +166,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="relation_ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relation_ship" type="462c0819:PsiDirectoryNode" />
+              <item name="query_set_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="query_set_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="relation_ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relation_ship" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="query_set_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="query_set_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="relation_ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relation_ship" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="models.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="relation_ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="relation_ship" type="462c0819:PsiDirectoryNode" />
-              <item name="frontuser" type="462c0819:PsiDirectoryNode" />
+              <item name="query_set_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="query_set_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="query_set_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,13 +204,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="relation_ship" type="Python.DjangoServer" factoryName="Django server" singleton="true">
-      <module name="relation_ship" />
+    <configuration name="query_set_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+      <module name="query_set_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="relation_ship.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="query_set_demo.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\jiangxiligong\jxlg_0102\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -237,11 +234,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="01b7a232-407a-4f3d-8e86-732e635ea9f8" name="Default Changelist" comment="" />
-      <created>1560733449652</created>
+      <changelist id="887fcd76-e0a4-4b1a-9402-047d2f60eccb" name="Default Changelist" comment="" />
+      <created>1560739883820</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560733449652</updated>
+      <updated>1560739883820</updated>
     </task>
     <servers />
   </component>
@@ -255,20 +252,20 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@query_set_demo" weight="0.58625335" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="manage.py@relation_ship" weight="0.6495957" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
+      <window_info anchor="bottom" id="Database Console" weight="0.5485175" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53638816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.36461318" />
+      <window_info anchor="right" id="Database" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,118 +278,84 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/relation_ship/settings.py">
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="282">
+          <caret line="181" column="14" selection-start-line="181" selection-start-column="6" selection-end-line="181" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/article_category">
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="166" column="44" lean-forward="true" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e5c3b4f-f2ea-4c72-bc8a-2fe6e31e8db7/schema/main/table/book">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/relation_ship/urls.py">
+    <entry file="file://$PROJECT_DIR$/query_set_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="129">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e5c3b4f-f2ea-4c72-bc8a-2fe6e31e8db7/schema/main/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e5c3b4f-f2ea-4c72-bc8a-2fe6e31e8db7/schema/main/table/article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1785">
+          <caret line="1422" selection-start-line="1422" selection-end-line="1422" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_set_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <element signature="e#637#669#0" expanded="true" />
+            <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontuser/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/frontuser_frontuser">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/auth_user_user_permissions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/frontuser_userextension">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontuser/models.py">
+    <entry file="file://$PROJECT_DIR$/front/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="9" column="92" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="92" />
+        <state relative-caret-position="573">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <marker date="1560737438940" expanded="true" signature="87:232" ph="..." />
-            <marker date="1560737438940" expanded="true" signature="266:271" ph="..." />
+            <marker date="1560742264499" expanded="true" signature="82:722" ph="..." />
+            <marker date="1560742264499" expanded="true" signature="298:390" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/article_tag">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/urls.py">
+    <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/article_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b47da682-3f33-427c-81eb-04fcf32812c4/schema/main/table/article_tag_articles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1560738863941" expanded="true" signature="213:218" ph="..." />
-            <marker date="1560738863941" expanded="true" signature="1444:2345" ph="..." />
-            <marker date="1560738863941" expanded="true" signature="1820:2345" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1560738946158" expanded="true" signature="124:129" ph="..." />
-            <marker date="1560738946158" expanded="true" signature="193:378" ph="..." />
-            <marker date="1560738946158" expanded="true" signature="406:411" ph="..." />
+            <marker date="1560743317057" expanded="true" signature="236:241" ph="..." />
+            <marker date="1560743317057" expanded="true" signature="467:472" ph="..." />
           </folding>
         </state>
       </provider>
