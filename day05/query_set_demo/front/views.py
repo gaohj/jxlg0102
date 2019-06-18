@@ -65,3 +65,11 @@ def index7(request):
         print(categorie)
     print(categories.query)
     return HttpResponse("index7")
+
+def index8(request):
+    #article = Article.objects.filter(create_time__isnull=False)
+    article = Article.objects.filter(title__iregex=r"^hello")
+    # for categorie in categories:
+    #     print(categorie)
+    # print(categories.query)
+    return HttpResponse("index8")
