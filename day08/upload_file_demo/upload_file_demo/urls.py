@@ -1,4 +1,4 @@
-"""model_form_demo URL Configuration
+"""upload_file_demo URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from front import views
+from django.conf.urls.static import  static
+from django.conf import settings
 
 urlpatterns = [
-    path('add/', views.add_book,name='add'),
-    path('register/', views.register,name='register'),
-]
+    path('', views.IndexView.as_view(),name='index'),
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

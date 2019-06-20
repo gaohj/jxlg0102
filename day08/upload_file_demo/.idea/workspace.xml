@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ba4263-a3b2-4a26-8984-1607aa42f9b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_form_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_form_demo/urls.py" afterDir="false" />
+    <list default="true" id="2274f6dc-b3b2-45ef-b5b0-0af2d865cdca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/0002_auto_20190620_1037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_form_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../model_form_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_form_demo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../model_form_demo/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_form_demo/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model_form_demo/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_form_demo/model_form_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model_form_demo/model_form_demo/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,36 +54,38 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="702226300">
+    <session id="351474926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1243" />
-          <entry key="py@model_form_demo" value="14" />
+          <entry key="html" value="97" />
+          <entry key="py" value="681" />
+          <entry key="py@upload_file_demo" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="14" />
-          <entry key="Python" value="1243" />
+          <entry key="CommandLine" value="11" />
+          <entry key="HTML" value="97" />
+          <entry key="Python" value="681" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="front_book" value="1" />
-          <entry key="front_user" value="1" />
+          <entry key="front_article" value="1" />
+          <entry key="html" value="1" />
           <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="2" />
+          <entry key="Database Element" value="1" />
+          <entry key="HTML" value="1" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
@@ -84,66 +94,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_form_demo/settings.py">
+        <entry file="file://$PROJECT_DIR$/upload_file_demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="549">
+              <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_form_demo/urls.py">
+        <entry file="file://$PROJECT_DIR$/upload_file_demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="353">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#639#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1560994435410" expanded="true" signature="105:110" ph="..." />
-                <marker date="1560994435410" expanded="true" signature="766:1030" ph="..." />
+                <element signature="e#640#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/views.py">
+        <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/conf/urls/static.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://9a69423a-825e-45d3-aeed-a240be4c452f/schema/main/table/front_book">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://9a69423a-825e-45d3-aeed-a240be4c452f/schema/main/table/front_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="504">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -152,12 +127,54 @@
         <entry file="file://$PROJECT_DIR$/front/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1560993045387" expanded="true" signature="118:164" ph="..." />
-                <marker date="1560993045387" expanded="true" signature="314:363" ph="..." />
+                <marker date="1560998203438" expanded="true" signature="119:399" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1560997370882" expanded="true" signature="219:291" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://f34d8c3e-10db-4269-8e79-4337c853dad7/schema/main/table/front_article">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -168,6 +185,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -177,11 +195,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/models.py" />
-        <option value="$PROJECT_DIR$/model_form_demo/settings.py" />
         <option value="$PROJECT_DIR$/front/forms.py" />
         <option value="$PROJECT_DIR$/front/views.py" />
-        <option value="$PROJECT_DIR$/model_form_demo/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/upload_file_demo/settings.py" />
+        <option value="$PROJECT_DIR$/upload_file_demo/urls.py" />
+        <option value="$PROJECT_DIR$/front/models.py" />
       </list>
     </option>
   </component>
@@ -203,31 +222,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="model_form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model_form_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="upload_file_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model_form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model_form_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="upload_file_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model_form_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model_form_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="model_form_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="upload_file_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="upload_file_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -246,13 +272,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="model_form_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
-      <module name="model_form_demo" />
+    <configuration name="upload_file_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+      <module name="upload_file_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="model_form_demo.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="upload_file_demo.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\jiangxiligong\jxlg_0102\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -260,7 +286,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8003" />
+      <option name="port" value="8002" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -276,11 +302,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47ba4263-a3b2-4a26-8984-1607aa42f9b4" name="Default Changelist" comment="" />
-      <created>1560992738244</created>
+      <changelist id="2274f6dc-b3b2-45ef-b5b0-0af2d865cdca" name="Default Changelist" comment="" />
+      <created>1560996686809</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560992738244</updated>
+      <updated>1560996686809</updated>
     </task>
     <servers />
   </component>
@@ -289,19 +315,19 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21060172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19412607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@model_form_demo" weight="0.6212938" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="manage.py@upload_file_demo" weight="0.55121297" />
+      <window_info anchor="bottom" id="Terminal" weight="0.6644205" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5592992" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4851752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,67 +346,72 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model_form_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/front/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="50" />
+        <state relative-caret-position="68">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f34d8c3e-10db-4269-8e79-4337c853dad7/schema/main/table/front_article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/conf/urls/static.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload_file_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload_file_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="50" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1560993045387" expanded="true" signature="118:164" ph="..." />
-            <marker date="1560993045387" expanded="true" signature="314:363" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_form_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
+            <marker date="1560998203438" expanded="true" signature="119:399" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="152">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a69423a-825e-45d3-aeed-a240be4c452f/schema/main/table/front_book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a69423a-825e-45d3-aeed-a240be4c452f/schema/main/table/front_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1560994435410" expanded="true" signature="105:110" ph="..." />
-            <marker date="1560994435410" expanded="true" signature="766:1030" ph="..." />
+            <marker date="1560997370882" expanded="true" signature="219:291" ph="..." />
           </folding>
         </state>
       </provider>

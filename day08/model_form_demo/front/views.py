@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .forms import  AddBookForm
+from .forms import  AddBookForm,RegisterForm
 from .models import Book
+from django.views.decorators.http import require_POST
 # Create your views here.
 
 def add_book(request):
@@ -19,3 +20,13 @@ def add_book(request):
     else:
         print(form.errors.get_json_data())
         return HttpResponse('fail')
+@require_POST
+def register(request):
+    form = RegisterForm(request.POST)
+    if form.is_valid():
+        user = form.save(commit=False)
+        user.password = form.cleaned_data.get('pwd1')
+        user.save()
+        return HttpResponse("SUCCESS")
+    else:
+        return HttpResponse("FALSE")
