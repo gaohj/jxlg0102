@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2274f6dc-b3b2-45ef-b5b0-0af2d865cdca" name="Default Changelist" comment="" />
+    <list default="true" id="9fe8648c-494c-4e1b-a596-e577dae2486f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie_session_demo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload_file_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../upload_file_demo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +47,102 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="351474926">
+    <session id="-566708710">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="97" />
-          <entry key="py" value="681" />
-          <entry key="py@upload_file_demo" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CommandLine" value="11" />
-          <entry key="HTML" value="97" />
-          <entry key="Python" value="681" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="front_article" value="1" />
-          <entry key="html" value="1" />
-          <entry key="py" value="4" />
+          <entry key="django_session" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
-          <entry key="HTML" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1243" />
+          <entry key="py@cookie_session_demo" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="3" />
+          <entry key="Python" value="1243" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookie_session_demo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="123" selection-start-line="123" selection-start-column="2" selection-end-line="124" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://efa1d376-5a9d-4f4c-abd8-2bdf77423584/schema/main/table/django_session">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookie_session_demo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="e#643#675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookie_session_demo/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="47" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <marker date="1561002860415" expanded="true" signature="784:887" ph="..." />
+                <marker date="1561002860415" expanded="true" signature="1070:1486" ph="..." />
+                <marker date="1561002860415" expanded="true" signature="1511:1516" ph="..." />
+                <marker date="1561002860415" expanded="true" signature="1645:1650" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/http/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,12 +152,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/forms.py" />
-        <option value="$PROJECT_DIR$/front/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/upload_file_demo/settings.py" />
-        <option value="$PROJECT_DIR$/upload_file_demo/urls.py" />
-        <option value="$PROJECT_DIR$/front/models.py" />
+        <option value="$PROJECT_DIR$/cookie_session_demo/urls.py" />
+        <option value="$PROJECT_DIR$/cookie_session_demo/views.py" />
+        <option value="$PROJECT_DIR$/cookie_session_demo/settings.py" />
       </list>
     </option>
   </component>
@@ -128,8 +180,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="upload_file_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload_file_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie_session_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cookie_session_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cookie_session_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cookie_session_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie_session_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/www/jxlg_0102/day08/cookie_session_demo/cookie_session_demo/urls.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -158,13 +215,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="upload_file_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
-      <module name="upload_file_demo" />
+    <configuration name="cookie_session_demo" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+      <module name="cookie_session_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="upload_file_demo.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cookie_session_demo.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\jiangxiligong\jxlg_0102\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -188,31 +245,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2274f6dc-b3b2-45ef-b5b0-0af2d865cdca" name="Default Changelist" comment="" />
-      <created>1560996686809</created>
+      <changelist id="9fe8648c-494c-4e1b-a596-e577dae2486f" name="Default Changelist" comment="" />
+      <created>1561000059114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560996686809</updated>
+      <updated>1561000059114</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19412607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@cookie_session_demo" weight="0.56738544" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="manage.py@upload_file_demo" weight="0.55121297" />
-      <window_info anchor="bottom" id="Terminal" weight="0.6644205" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4851752" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38140163" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,73 +289,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/views.py">
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1560997370882" expanded="true" signature="219:291" ph="..." />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1560998203438" expanded="true" signature="119:399" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/conf/urls/static.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload_file_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f34d8c3e-10db-4269-8e79-4337c853dad7/schema/main/table/front_article">
+    <entry file="das://efa1d376-5a9d-4f4c-abd8-2bdf77423584/schema/main/table/django_session">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload_file_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/cookie_session_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        <state relative-caret-position="98">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/sessions/backends/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_session_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="123" selection-start-line="123" selection-start-column="2" selection-end-line="124" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_session_demo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1561002860415" expanded="true" signature="784:887" ph="..." />
+            <marker date="1561002860415" expanded="true" signature="1070:1486" ph="..." />
+            <marker date="1561002860415" expanded="true" signature="1511:1516" ph="..." />
+            <marker date="1561002860415" expanded="true" signature="1645:1650" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
