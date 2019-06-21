@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from datetime import datetime
+from datetime import datetime,timedelta
 from django.utils.timezone import make_aware
 
 def index(request):
@@ -33,18 +33,29 @@ def my_view(request):
     username = cookies.get('user_id')
     return HttpResponse(username)
 
-from datetime import timedelta
-def session_view(request):
-    # expires = datetime(year=2019, month=6, day=22, hour=20, minute=30, second=40)
-    # expires = make_aware(expires)
 
-    request.session['username']= 'kangbazi'
-    request.session['age']= 18
-    # expiry = timedelta(days=3)
+def session_view(request):
+    request.session['username'] = 'kangbazi'
+    request.session['user_id'] = '5201314'
+    # request.session.pop('username')
+    # #pop表示从列表中移除 username对应的value
+    #
+    # username = request.session.get('username')
+    # request.session['user_id'] = '5201314'
+    #
+    # request.session.clear()
+    # user_id = request.session.get('user_id')
+    # username = request.session.get('username')
+    # print(username)
+    # print("="*100)
+    # request.session.flush() #注销以后 删除了浏览器中的 session_id
+    # username = request.session.get('username') #重新从session中获取
+    #
+    # print(username)
     # request.session.set_expiry(None)
+    # request.session.set_expiry(-1)
     # request.session.set_expiry(0)
-    expiry = timedelta(days=2)
-    request.session.set_expiry(expiry)
+    request.session.clear_expired() #清空过期的session
     return HttpResponse("SESSION VIEW")
 
 def get_session(request):
