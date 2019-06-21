@@ -18,6 +18,8 @@ def index(request):
     #     context['front_user'] = user
     # except:
     #     pass
+    if request.front_user:
+        print(request.front_user.username)
     return render(request,'index.html')
 
 
