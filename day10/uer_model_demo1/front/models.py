@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser,BaseUserManager
+from django.contrib.auth.models import AbstractUser,AbstractBaseUser,PermissionsMixin,BaseUserManager
 from django.core import validators
 from django.dispatch import receiver
 from django.db.models.signals import post_save
@@ -54,11 +54,28 @@ class UserManager(BaseUserManager):
     def create_superuser(self, telephone,username,password,email,**kwargs):
         kwargs['is_superuser'] = True
         return self._create_user(telephone=telephone, username=username, email=email, password=password, **kwargs)
-class User(AbstractUser):
-    telephone = models.CharField(max_length=11,validators=[validators.RegexValidator(r'1[3456789]\d{9}')],unique=True)
-    school = models.CharField(max_length=30)
+# class User(AbstractUser):
+#     telephone = models.CharField(max_length=11,validators=[validators.RegexValidator(r'1[3456789]\d{9}')],unique=True)
+#     school = models.CharField(max_length=30)
+#
+#     objects = UserManager()
+#
+#     USERNAME_FIELD = 'telephone' #默认django user模型采用的是 username验证 现在我们修改以后改成了 telephone
+#
+
+class User(AbstractBaseUser,PermissionsMixin):
+    telephone = models.CharField(max_length=11,unique=True)
+    email = models.EmailField(unique=True)
+    username =  models.CharField(max_length=100)
+    is_active = models.BooleanField(default=False)
 
     objects = UserManager()
 
-    USERNAME_FIELD = 'telephone' #默认django user模型采用的是 username验证 现在我们修改以后改成了 telephone
+    USERNAME_FIELD = 'telephone'
+    REQUIRED_FIELDS = []
 
+    def get_full_name(self):
+        return self.username
+
+    def get_short_name(self):
+        return self.username

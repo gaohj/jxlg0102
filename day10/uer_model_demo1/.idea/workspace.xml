@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ba285d-1496-4417-b568-3a56e9c17710" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uer_model_demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user_model_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user_model_demo/front/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day09/context_processirs_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day09/context_processirs_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day09/context_processirs_demo/front/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day09/context_processirs_demo/front/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44b46045-ce4a-4418-ad95-b38c367c0741.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/44b46045-ce4a-4418-ad95-b38c367c0741.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uer_model_demo1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uer_model_demo1/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,61 +61,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1649" />
-          <entry key="py@uer_model_demo1" value="26" />
+          <entry key="html" value="207" />
+          <entry key="py" value="2801" />
+          <entry key="py@uer_model_demo1" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="26" />
-          <entry key="Python" value="1649" />
+          <entry key="CommandLine" value="32" />
+          <entry key="HTML" value="207" />
+          <entry key="Python" value="2801" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="auth_user" value="5" />
           <entry key="django_migrations" value="1" />
-          <entry key="front_user" value="1" />
+          <entry key="front_user" value="3" />
           <entry key="front_userextension" value="3" />
-          <entry key="py" value="13" />
+          <entry key="html" value="1" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="10" />
-          <entry key="Python" value="13" />
+          <entry key="Database Element" value="12" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1561345009004" expanded="true" signature="689:696" ph="..." />
-                <marker date="1561345009004" expanded="true" signature="1217:2255" ph="..." />
-                <marker date="1561345009004" expanded="true" signature="2280:2563" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="255">
+              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1561345558660" expanded="true" signature="1007:1259" ph="..." />
-                <marker date="1561345558660" expanded="true" signature="1303:1304" ph="..." />
-                <marker date="1561345558660" expanded="true" signature="1303:1308" ph="..." />
-                <marker date="1561345558660" expanded="true" signature="1913:1918" ph="..." />
+                <element signature="e#0#52#0" expanded="true" />
+                <marker date="1561348390600" expanded="true" signature="1126:1378" ph="..." />
+                <marker date="1561348390600" expanded="true" signature="1422:1423" ph="..." />
+                <marker date="1561348390600" expanded="true" signature="1422:1427" ph="..." />
+                <marker date="1561348390600" expanded="true" signature="2032:2037" ph="..." />
+                <marker date="1561348390600" expanded="true" signature="2528:2533" ph="..." />
+                <marker date="1561348390600" expanded="true" signature="3678:3726" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uer_model_demo1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="339">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
               <folding>
                 <element signature="e#639#671#0" expanded="true" />
               </folding>
@@ -138,10 +125,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://44b46045-ce4a-4418-ad95-b38c367c0741/schema/main/table/front_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/front/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1561348252911" expanded="true" signature="279:284" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,13 +140,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uer_model_demo1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+            <state relative-caret-position="229">
+              <caret line="85" selection-start-line="85" selection-end-line="85" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -166,7 +174,9 @@
         <option value="C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/auth/models.py" />
         <option value="$PROJECT_DIR$/uer_model_demo1/settings.py" />
         <option value="$PROJECT_DIR$/front/models.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/uer_model_demo1/urls.py" />
+        <option value="$PROJECT_DIR$/front/forms.py" />
         <option value="$PROJECT_DIR$/front/views.py" />
       </list>
     </option>
@@ -220,6 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -293,7 +304,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.574124" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.574124" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="109" column="49" lean-forward="true" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://44b46045-ce4a-4418-ad95-b38c367c0741/schema/main/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -347,26 +351,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uer_model_demo1/settings.py">
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/auth/base_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        <state relative-caret-position="363">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="355" column="6" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="6" />
+        <state relative-caret-position="313">
+          <caret line="328" column="31" lean-forward="true" selection-start-line="324" selection-start-column="4" selection-end-line="328" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uer_model_demo1/urls.py">
+    <entry file="file://$PROJECT_DIR$/front/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="647">
+          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
           <folding>
-            <element signature="e#639#671#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1561346627637" expanded="true" signature="723:730" ph="..." />
+            <marker date="1561346627637" expanded="true" signature="1251:2289" ph="..." />
+            <marker date="1561346627637" expanded="true" signature="2316:2610" ph="..." />
+            <marker date="1561346627637" expanded="true" signature="2657:3068" ph="..." />
           </folding>
         </state>
       </provider>
@@ -378,29 +386,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/models.py">
+    <entry file="file://$PROJECT_DIR$/uer_model_demo1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="229">
+          <caret line="85" selection-start-line="85" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="117" column="17" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uer_model_demo1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1561345009004" expanded="true" signature="689:696" ph="..." />
-            <marker date="1561345009004" expanded="true" signature="1217:2255" ph="..." />
-            <marker date="1561345009004" expanded="true" signature="2280:2563" ph="..." />
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1561348252911" expanded="true" signature="279:284" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1561345558660" expanded="true" signature="1007:1259" ph="..." />
-            <marker date="1561345558660" expanded="true" signature="1303:1304" ph="..." />
-            <marker date="1561345558660" expanded="true" signature="1303:1308" ph="..." />
-            <marker date="1561345558660" expanded="true" signature="1913:1918" ph="..." />
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1561348390600" expanded="true" signature="1126:1378" ph="..." />
+            <marker date="1561348390600" expanded="true" signature="1422:1423" ph="..." />
+            <marker date="1561348390600" expanded="true" signature="1422:1427" ph="..." />
+            <marker date="1561348390600" expanded="true" signature="2032:2037" ph="..." />
+            <marker date="1561348390600" expanded="true" signature="2528:2533" ph="..." />
+            <marker date="1561348390600" expanded="true" signature="3678:3726" ph="..." />
           </folding>
         </state>
       </provider>
