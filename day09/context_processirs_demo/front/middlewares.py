@@ -1,4 +1,5 @@
 from .models import  User
+from django.contrib.auth.models import User
 #get_response 是个方法
 def front_user_middleware(get_response):
     print("这里是中间件初始化的一些代码 ")
