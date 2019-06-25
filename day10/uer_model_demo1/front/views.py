@@ -2,11 +2,12 @@ from django.shortcuts import render,reverse,redirect
 # from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 from django.http import HttpResponse
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required,permission_required
 # Create your views here.
-# from .models import Person
+from .models import Article
 from .models import User
 from .forms import LoginForm
+from django.contrib.auth.models import ContentType,Permission,Group
 
 def index(request):
     #user = User.objects.create_user(username='jxlg4',email='jxlg4@126.com',password='12qwaszx')
@@ -21,7 +22,7 @@ def index(request):
     #     print('登录成功',user.username)
     # else:
     #     print('用户名或者密码错误')
-    return HttpResponse("OK")
+    return render(request,'index.html')
 
 # def proxys(request):
 #     balcklists = Person.get_balck_list()
@@ -111,3 +112,39 @@ def my_logout(request):
 def profiles(request):
     return HttpResponse("我是个人中心,登录成功以后才可以查看")
 
+def add_permissions(request):
+    #获取模型对应的contenttypeid
+    content_type = ContentType.objects.get_for_model(Article)
+    permission = Permission.objects.create(codename='black_article',name='拉黑文章',content_type=content_type)
+    return HttpResponse("权限创建成功")
+
+
+def operate_permission(request):
+    user = User.objects.first()
+    content_type = ContentType.objects.get_for_model(Article)
+    #取出Article模型的所有权限
+    permissions = Permission.objects.filter(content_type=content_type)
+    # for permission in permissions:
+    #     print(permission)
+    user.user_permissions.set(permissions)
+    user.save()
+    #user.user_permissions.clear()
+    # user.user_permissions.remove(*permissions)
+    if user.has_perm('front.view_article'):
+        print("拥有查看文章的权限")
+    else:
+        print("没有查看文章的权限")
+    print(user.get_all_permissions())
+
+    return HttpResponse("操作权限成功")
+
+@permission_required(['front.view_article','front.add_article'],login_url='/login/',raise_exception=True)
+def add_article(request):
+    if request.user.is_authenticated:
+        print('已经登录了')
+        if request.user.has_perm('front.add_article'):
+            return HttpResponse("添加文章的页面")
+        else:
+            return HttpResponse("您没有访问该页面的权限",status=403)
+    else:
+        return redirect(reverse('login'))

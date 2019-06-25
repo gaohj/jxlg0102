@@ -26,5 +26,9 @@ urlpatterns = [
     path('inherit/', views.inherit_view,name='inherit'),
     path('login/', views.my_login,name='login'),
     path('logout/', views.my_logout,name='logout'),
-    path('profile/',views.profiles,name='profile')
+    path('profile/',views.profiles,name='profile'),
+    path('add_permission/',views.add_permissions,name='add_permission'),
+    path('operate_permission/',views.operate_permission,name='operate_permission'),
+    path('add_article/',views.add_article,name='add_article'),
+
 ]

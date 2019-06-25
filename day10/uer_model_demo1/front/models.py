@@ -4,6 +4,7 @@ from django.core import validators
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 # Create your models here.
+from django.contrib.auth import get_user_model
 
 #User.objects.all()
 #Person.onjects.all() 等价的  因为person 是一个代理模型自己没什么实权 用的全是User的
@@ -79,3 +80,13 @@ class User(AbstractBaseUser,PermissionsMixin):
 
     def get_short_name(self):
         return self.username
+
+class Article(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    author = models.ForeignKey(get_user_model(),on_delete=models.CASCADE)
+
+    class Meta:
+        permissions = [
+            ('view_article','看文章的权限')
+        ]
