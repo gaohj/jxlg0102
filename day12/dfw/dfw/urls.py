@@ -18,4 +18,5 @@ from django.conf.urls import url,include
 from apps.urls import router
 urlpatterns = [
     url(r'^app/',include(router.urls)),
+    url(r'^view/',include('apps.urls')),
 ]

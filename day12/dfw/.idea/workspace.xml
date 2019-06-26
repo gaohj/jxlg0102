@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9cdd811-e442-4de7-8cbe-07d51731f491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day11/jxlg0102/apps/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day11/jxlg0102/apps/jxlg0102auth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/migrations/0002_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/migrations/0003_movie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day11/jxlg0102/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day11/jxlg0102/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11/jxlg0102/apps/jxlg0102auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day11/jxlg0102/apps/jxlg0102auth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11/jxlg0102/jxlg0102/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day11/jxlg0102/jxlg0102/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfw/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dfw/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +62,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="431" />
+          <entry key="py" value="1164" />
           <entry key="py@dfw" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="17" />
-          <entry key="Python" value="431" />
+          <entry key="Python" value="1164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="apps_book" value="1" />
-          <entry key="py" value="12" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -92,10 +91,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="437">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
-                <marker date="1561514415424" expanded="true" signature="82:87" ph="..." />
+                <marker date="1561518252963" expanded="true" signature="82:87" ph="..." />
+                <marker date="1561518252963" expanded="true" signature="197:198" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,24 +104,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="339">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1561515399216" expanded="true" signature="127:132" ph="..." />
+                <marker date="1561518587220" expanded="true" signature="138:143" ph="..." />
+                <marker date="1561518587220" expanded="true" signature="1000:1137" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/rest_framework/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1633">
+              <caret line="938" column="37" lean-forward="true" selection-start-line="938" selection-start-column="37" selection-end-line="938" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="-109">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1561514912106" expanded="true" signature="207:281" ph="..." />
+                <marker date="1561518763491" expanded="true" signature="332:926" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="499">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -139,11 +149,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/rest_framework/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="225" column="69" selection-start-line="225" selection-start-column="63" selection-end-line="225" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dfw/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="353">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
                 <element signature="e#627#659#0" expanded="true" />
               </folding>
@@ -160,18 +179,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>update</find>
+      <find>retri</find>
+      <find>list</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/models.py" />
         <option value="$PROJECT_DIR$/dfw/settings.py" />
-        <option value="$PROJECT_DIR$/apps/views.py" />
         <option value="$PROJECT_DIR$/dfw/urls.py" />
+        <option value="$PROJECT_DIR$/apps/models.py" />
         <option value="$PROJECT_DIR$/apps/urls.py" />
         <option value="$PROJECT_DIR$/apps/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/views.py" />
       </list>
     </option>
   </component>
@@ -205,11 +231,6 @@
               <item name="dfw" type="b2602c69:ProjectViewProjectNode" />
               <item name="dfw" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dfw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dfw" type="462c0819:PsiDirectoryNode" />
-              <item name="dfw" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,9 +297,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="manage.py@dfw" weight="0.5188679" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -330,54 +352,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#535#3507#0" />
+            <element signature="e#3573#3950#0" />
+            <element signature="e#4006#4268#0" />
+            <element signature="e#4353#4559#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="437">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
-            <marker date="1561514415424" expanded="true" signature="82:87" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1561515399216" expanded="true" signature="127:132" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1561514912106" expanded="true" signature="207:281" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1561518252963" expanded="true" signature="82:87" ph="..." />
+            <marker date="1561518252963" expanded="true" signature="197:198" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dfw/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="353">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding>
             <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1633">
+          <caret line="938" column="37" lean-forward="true" selection-start-line="938" selection-start-column="37" selection-end-line="938" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1561518587220" expanded="true" signature="138:143" ph="..." />
+            <marker date="1561518587220" expanded="true" signature="1000:1137" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/jxlg_0102/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="225" column="69" selection-start-line="225" selection-start-column="63" selection-end-line="225" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1561518763491" expanded="true" signature="332:926" ph="..." />
           </folding>
         </state>
       </provider>
