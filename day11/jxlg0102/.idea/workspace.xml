@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c591dd67-20ba-4f84-abfe-365418d9db28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day12/dfw/apps/migrations/0002_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day12/dfw/apps/migrations/0003_movie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day12/dfw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/apps/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/apps/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/apps/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/apps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/apps/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/apps/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/apps/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12/dfw/dfw/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day12/dfw/dfw/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="281" />
     <option name="y" value="67" />
     <option name="width" value="1024" />
@@ -271,7 +262,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707736" />
