@@ -30,3 +30,4 @@ class RegisterForm(forms.Form,FormMixin):
         # cache.get(text.lower())
 
         return cleaned_data
+
